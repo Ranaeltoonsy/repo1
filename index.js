@@ -8,9 +8,10 @@ var sum = 0
 do{
     var e= prompt("Enter a number:");
     var n = +e;
+    
     if(!isNaN (n)){
         sum += n;
-       
     }
+
 }while( n !==0 && sum < 100);
 alert("the final total is" + sum);
